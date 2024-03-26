@@ -6,12 +6,10 @@ function Contact(props){
 
             }
         </style>
-        <div style={{"float": "left" ,borderRadius:"10px",padding:"6px" ,border:"none", marginTop:"8px", marginRight:"16px",  fontSize:"12px"}}>
-           
-            <input type="text" placeholder="search" style={{borderRadius:"3px"}}/>
-            <img style={{height:"10px", width:"15px"}} src="assets/bar.jpg" alt="icon"/>
+         <div style={{ borderRadius: "10px", paddingLeft: "8px", marginLeft: "10px", border: "1px solid #ECECEC", marginTop: "8px", backgroundColor: "#FAFAFA", width: "250px", display: "flex", alignItems: "center" }}>
+            <input type="text" placeholder="Search" style={{ borderRadius: "10px", backgroundColor: "#FAFAFA", border: "none", height: "25px", fontSize: "11px", flex: "1" }} />
+            <img style={{ height: "12px", width: "12px", marginRight: "8px" }} src="assets/bar.png" alt="icon" />
         </div>
-
         </>
     )
 }
